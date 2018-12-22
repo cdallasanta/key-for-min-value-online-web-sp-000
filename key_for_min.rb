@@ -3,7 +3,7 @@
 
 def key_for_min_value(name_hash)
   smallestKey = ""
-  smallestValue = INFINITY
+  smallestValue = 2000
   name_hash.collect do |item, num|
     if num < smallestValue
       smallestKey = item
